@@ -64,6 +64,8 @@
 	        
 				<li><a href="/article">以书论道</a></li>
 	        
+				<li><a href="/categories/web/">web前端</a></li>
+	        
 			</ul>
 		</nav>
 		<nav class="header-smart-menu">
@@ -80,13 +82,13 @@
 		<nav class="header-nav">
 			<!-- <div class="social">
 				
-					<a class="github" target="_blank" href="#" title="github"><i class="icon-github"></i></a>
+					<a class="qq" target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?k=5xubvt0rHZnfSrvag8s4Wdfqv0YTMop0" title="qq"><i class="icon-qq"></i></a>
 		        
-					<a class="weibo" target="_blank" href="#" title="weibo"><i class="icon-weibo"></i></a>
+					<a class="weixin" target="_blank" href="https://www.wechat.com/zh_HK" title="weixin"><i class="icon-weixin"></i></a>
 		        
-					<a class="rss" target="_blank" href="#" title="rss"><i class="icon-rss"></i></a>
+					<a class="jianshu" target="_blank" href="#" title="jianshu"><i class="icon-jianshu"></i></a>
 		        
-					<a class="qq" target="_blank" href="#" title="qq"><i class="icon-qq"></i></a>
+					<a class="douban" target="_blank" href="#" title="douban"><i class="icon-douban"></i></a>
 		        
 			</div> -->
 			<div class="social">
@@ -123,34 +125,38 @@
 			
 				
 			
+				
+			
 			
 			
 			<nav class="header-nav">
-				<!-- <div class="social">
-					
-						<a class="github" target="_blank" href="#" title="github"><i class="icon-github"></i></a>
-			        
-						<a class="weibo" target="_blank" href="#" title="weibo"><i class="icon-weibo"></i></a>
-			        
-						<a class="rss" target="_blank" href="#" title="rss"><i class="icon-rss"></i></a>
-			        
-						<a class="qq" target="_blank" href="#" title="qq"><i class="icon-qq"></i></a>
-			        
-				</div> -->
 				<div class="social">
-					<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=220 height=72 src="//music.163.com/outchain/player?type=2&id=520458349&auto=1&height=32"></iframe>
+					
+						<a class="qq" target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?k=5xubvt0rHZnfSrvag8s4Wdfqv0YTMop0" title="qq"><i class="icon-qq"></i></a>
+			        
+						<a class="weixin" target="_blank" href="https://www.wechat.com/zh_HK" title="weixin"><i class="icon-weixin"></i></a>
+			        
+						<a class="jianshu" target="_blank" href="#" title="jianshu"><i class="icon-jianshu"></i></a>
+			        
+						<a class="douban" target="_blank" href="#" title="douban"><i class="icon-douban"></i></a>
+			        
 				</div>
+				<!-- <div class="social">
+					<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=220 height=72 src="//music.163.com/outchain/player?type=2&id=520458349&auto=1&height=32"></iframe>
+				</div> -->
 			</nav>
 
 			<nav class="header-menu js-header-menu">
 				<ul style="width: 70%">
 				
 				
-					<li style="width: 33.333333333333336%"><a href="/">主页</a></li>
+					<li style="width: 25%"><a href="/">主页</a></li>
 		        
-					<li style="width: 33.333333333333336%"><a href="/tea">以茶会友</a></li>
+					<li style="width: 25%"><a href="/tea">以茶会友</a></li>
 		        
-					<li style="width: 33.333333333333336%"><a href="/article">以书论道</a></li>
+					<li style="width: 25%"><a href="/article">以书论道</a></li>
+		        
+					<li style="width: 25%"><a href="/categories/web/">web前端</a></li>
 		        
 				</ul>
 			</nav>
@@ -381,7 +387,7 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
     
     	<section class="tools-section tools-section-all" q-show="innerArchive">
         <div class="search-wrap">
-          <input class="search-ipt" q-model="search" type="text" placeholder="find something…">
+          <input class="search-ipt" q-model="search" type="text" placeholder="搜索....">
           <i class="icon-search icon" q-show="search|isEmptyStr"></i>
           <i class="icon-close icon" q-show="search|isNotEmptyStr" q-on="click:clearChose(e)"></i>
         </div>
@@ -391,6 +397,10 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
             <input type="checkbox" q-on="click:toggleTag(e)" q-attr="checked:showTags">
           </label>
           <ul class="article-tag-list" q-show="showTags">
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color1">-前端 -前端初学者</a>
+              </li>
             
             <div class="clearfix"></div>
           </ul>
@@ -440,7 +450,19 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
     
     	<section class="tools-section tools-section-me" q-show="aboutme">
   	  	
-  	  		<div class="aboutme-wrap" id="js-aboutme">很惭愧&lt;br&gt;&lt;br&gt;做的太low了，还有好多没完成！&lt;br&gt;&lt;br&gt;欢迎大家一起讨论</div>
+          <div class="aboutme-wrap" id="js-aboutme">&lt;br&gt;&lt;br&gt;空相忆，桃李又春风。&lt;br&gt;&lt;br&gt;十载江湖心契在，一身踪迹雨声中。&lt;br&gt;&lt;br&gt;何事太匆匆。
+          </div>
+          <div >
+			     	
+				        	<a class="qq" target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?k=5xubvt0rHZnfSrvag8s4Wdfqv0YTMop0" title="qq"><i class="icon-qq" style="font-size: 30px;margin-left: 50px;"></i></a>
+		        
+				        	<a class="weixin" target="_blank" href="https://www.wechat.com/zh_HK" title="weixin"><i class="icon-weixin" style="font-size: 30px;margin-left: 50px;"></i></a>
+		        
+				        	<a class="jianshu" target="_blank" href="#" title="jianshu"><i class="icon-jianshu" style="font-size: 30px;margin-left: 50px;"></i></a>
+		        
+				        	<a class="douban" target="_blank" href="#" title="douban"><i class="icon-douban" style="font-size: 30px;margin-left: 50px;"></i></a>
+		        
+		    	</div>
   	  	
     	</section>
     
