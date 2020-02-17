@@ -5,7 +5,6 @@
   
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
-  <meta name="baidu-site-verification" content="yqQMFKqSBD" />
   <link rel="dns-prefetch" href="https://mgs-mgs.github.io">
   <title>前端学习 | 看我的眼神多坚强</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -357,6 +356,36 @@ var _hmt = _hmt || [];
   
 
   
+
+<!-- 评论功能 -->
+
+  
+      <section id="comments" class="comments">
+        <style>
+          .comments{margin:30px;padding:10px;background:#fff}
+          @media screen and (max-width:800px){.comments{margin:auto;padding:10px;background:#fff}}
+        </style>
+        <div id="vcomment" class="comment"></div>
+<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+<script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+<script src="https://cdnjs.loli.net/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+  var notify = 'false' == true ? true : false;
+  var verify = 'false' == true ? true : false;
+  new Valine({
+    av: AV,
+    el: '#vcomment',
+    notify: notify,
+    app_id: "EQYtAPfIiFEO5kucrPsCsxia-gzGzoHsz",
+    app_key: "QLnTpSdJE6BkfqG58QVtxy3a",
+    placeholder: "Just go go",
+    avatar: "mm",
+  });
+</script>
+
+    </section>
+  
+
 
 
 
