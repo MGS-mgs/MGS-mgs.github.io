@@ -68,9 +68,9 @@ var _hmt = _hmt || [];
 			
 				<li><a href="/">主页</a></li>
 	        
-				<li><a href="/tea">以茶会友</a></li>
+				<li><a href="/categories/tea/">以茶会友</a></li>
 	        
-				<li><a href="/article">以书论道</a></li>
+				<li><a href="/categories/article/">以书论道</a></li>
 	        
 				<li><a href="/categories/web/">web前端</a></li>
 	        
@@ -150,9 +150,9 @@ var _hmt = _hmt || [];
 				
 					<li style="width: 25%"><a href="/">主页</a></li>
 		        
-					<li style="width: 25%"><a href="/tea">以茶会友</a></li>
+					<li style="width: 25%"><a href="/categories/tea/">以茶会友</a></li>
 		        
-					<li style="width: 25%"><a href="/article">以书论道</a></li>
+					<li style="width: 25%"><a href="/categories/article/">以书论道</a></li>
 		        
 					<li style="width: 25%"><a href="/categories/web/">web前端</a></li>
 		        
@@ -260,7 +260,7 @@ var _hmt = _hmt || [];
 		isArchive: false,
 		isTag: false,
 		isCategory: true,
-		open_in_new: false,
+		open_in_new: true,
 		toc_hide_index: true,
 		root: "/",
 		innerArchive: true,
@@ -311,7 +311,7 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
           <i class="icon-close icon" q-show="search|isNotEmptyStr" q-on="click:clearChose(e)"></i>
         </div>
         <div class="widget tagcloud search-tag">
-          <p class="search-tag-wording">tag:</p>
+          <p class="search-tag-wording">标签:</p>
           <label class="search-switch">
             <input type="checkbox" q-on="click:toggleTag(e)" q-attr="checked:showTags">
           </label>
@@ -323,6 +323,10 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color1">-前端 -前端初学者</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color1">黑道 热血</a>
               </li>
             
             <div class="clearfix"></div>
